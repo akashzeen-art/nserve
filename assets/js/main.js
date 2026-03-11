@@ -197,11 +197,7 @@
    */
   new Swiper('.services-slider', {
     speed: 500,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
+    loop: false,
     slidesPerView: 1,
     spaceBetween: 24,
     navigation: {
@@ -214,7 +210,7 @@
         spaceBetween: 24
       },
       992: {
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 24
       }
     }
