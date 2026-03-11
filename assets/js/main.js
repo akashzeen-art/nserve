@@ -200,6 +200,8 @@
     loop: false,
     slidesPerView: 1,
     spaceBetween: 24,
+    slidesPerGroup: 1,
+    watchOverflow: true,
     navigation: {
       nextEl: '.services-slider-next',
       prevEl: '.services-slider-prev'
@@ -210,7 +212,7 @@
         spaceBetween: 24
       },
       992: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 24
       }
     }
