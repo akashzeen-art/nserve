@@ -204,10 +204,9 @@
     },
     slidesPerView: 1,
     spaceBetween: 24,
-    pagination: {
-      el: '.services-pagination',
-      type: 'bullets',
-      clickable: true
+    navigation: {
+      nextEl: '.services-slider-next',
+      prevEl: '.services-slider-prev'
     },
     breakpoints: {
       576: {
