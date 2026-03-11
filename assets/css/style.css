@@ -826,6 +826,7 @@ section {
 .services .services-slider {
   padding: 10px 0 40px 0;
   position: relative;
+  overflow: visible;
 }
 
 .services .services-slider .swiper-slide {
@@ -835,13 +836,14 @@ section {
 .services .services-slider .services-slider-nav {
   position: absolute;
   top: 50%;
-  left: -18px;
-  right: -18px;
+  left: 0;
+  right: 0;
   transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
+  padding: 0 10px;
   pointer-events: none;
-  z-index: 10;
+  z-index: 20;
 }
 
 .services .services-slider .services-slider-prev,
@@ -857,6 +859,7 @@ section {
   justify-content: center;
   pointer-events: auto;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .services .services-slider .services-slider-prev i,
@@ -880,8 +883,7 @@ section {
 
 @media (max-width: 575px) {
   .services .services-slider .services-slider-nav {
-    left: -8px;
-    right: -8px;
+    padding: 0 6px;
   }
 }
 
