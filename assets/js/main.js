@@ -193,6 +193,35 @@
   });
 
   /**
+   * Services Slider
+   */
+  new Swiper('.services-slider', {
+    speed: 500,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 1,
+    spaceBetween: 24,
+    pagination: {
+      el: '.services-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 24
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 24
+      }
+    }
+  });
+
+  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {

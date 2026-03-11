@@ -823,6 +823,14 @@ section {
   border-radius: 5px;
 }
 
+.services .services-slider {
+  padding: 10px 0 40px 0;
+}
+
+.services .services-slider .swiper-slide {
+  height: auto;
+}
+
 .services .service-box .icon {
   font-size: 36px;
   padding: 40px 20px;
