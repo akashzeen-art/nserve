@@ -679,6 +679,10 @@ section {
   color: #0b198f;
 }
 
+.counts .count-box .purecounter {
+  display: inline-block;
+}
+
 .counts .count-box .purecounter + span {
   display: inline-block;
   margin-left: 4px;
