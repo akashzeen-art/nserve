@@ -831,6 +831,24 @@ section {
   height: auto;
 }
 
+.services .services-slider .swiper-wrapper {
+  align-items: stretch;
+}
+
+.services .services-slider .swiper-slide {
+  display: flex;
+}
+
+.services .services-slider .swiper-slide .service-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.services .services-slider .swiper-slide .service-box p {
+  flex: 1 1 auto;
+}
+
 .services .service-box .icon {
   font-size: 36px;
   padding: 40px 20px;
