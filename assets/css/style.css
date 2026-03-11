@@ -16,6 +16,22 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+.about p,
+.features p,
+.services .service-box p,
+.faq .accordion-body,
+.contact .info-box p,
+.footer p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a {
