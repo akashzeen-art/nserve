@@ -959,7 +959,7 @@ section {
 }
 
 .services .service-box.blue:hover {
-  background: #2db6fa;
+  background: #edf9ff;
 }
 
 .services .service-box.orange {
@@ -976,7 +976,7 @@ section {
 }
 
 .services .service-box.orange:hover {
-  background: #f68c09;
+  background: #fff4e6;
 }
 
 .services .service-box.green {
@@ -993,7 +993,7 @@ section {
 }
 
 .services .service-box.green:hover {
-  background: #08da4e;
+  background: #e9fff1;
 }
 
 .services .service-box.red {
@@ -1010,7 +1010,7 @@ section {
 }
 
 .services .service-box.red:hover {
-  background: #e9222c;
+  background: #fff0f1;
 }
 
 .services .service-box.purple {
@@ -1027,7 +1027,7 @@ section {
 }
 
 .services .service-box.purple:hover {
-  background: #b50edf;
+  background: #fbf0ff;
 }
 
 .services .service-box.pink {
@@ -1044,17 +1044,7 @@ section {
 }
 
 .services .service-box.pink:hover {
-  background: #f51f9c;
-}
-
-.services .service-box:hover h3,
-.services .service-box:hover p,
-.services .service-box:hover .read-more {
-  color: #fff;
-}
-
-.services .service-box:hover .icon {
-  background: #fff;
+  background: #fff0f8;
 }
 
 /*--------------------------------------------------------------
