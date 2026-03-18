@@ -88,7 +88,7 @@ function ServicesNav() {
           </ul>
 
           {/* CTA */}
-          <button className="sp-nav-cta" onClick={() => scrollTo('outcomes')}>
+          <button className="sp-nav-cta" onClick={() => window.open('https://calendly.com/itstusharpandey/30min', '_blank')}>
             Audit Your Resilience
           </button>
 
@@ -119,7 +119,7 @@ function ServicesNav() {
             </li>
           ))}
           <li>
-            <button className="sp-nav-cta sp-cta-mobile" onClick={() => scrollTo('outcomes')}>
+            <button className="sp-nav-cta sp-cta-mobile" onClick={() => window.open('https://calendly.com/itstusharpandey/30min', '_blank')}>
               Audit Your Resilience
             </button>
           </li>
@@ -277,7 +277,7 @@ function OutcomesSection() {
             <h3>Secure Your Tomorrow, Today.</h3>
             <p>Our experts provide a 24/7 managed DRaaS response team that takes the burden off your IT staff during a crisis.</p>
           </div>
-          <button className="sp-cta-btn">Get a Free Risk Assessment</button>
+          <button className="sp-cta-btn" onClick={() => window.open('https://calendly.com/itstusharpandey/30min', '_blank')}>Get a Free Risk Assessment</button>
         </div>
       </div>
     </section>
