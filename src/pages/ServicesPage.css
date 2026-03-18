@@ -282,6 +282,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: center;
+  margin-top: 60px;
 }
 .sp-hero-text { display: flex; flex-direction: column; gap: 0; }
 .sp-badge {
