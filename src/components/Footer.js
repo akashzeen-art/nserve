@@ -11,8 +11,8 @@ export default function Footer() {
           <div className="footer-grid">
             <div className="footer-info">
               <div className="logo">
-                <img src="/img/logo.png" alt="NServe" />
-                <span>NServe</span>
+                <img src="/img/logo.png" alt="nServe" />
+                <span>nServe</span>
               </div>
               <p>
                 Knowing your customers is an essential part of business planning. The more you know about your customers,
@@ -73,7 +73,7 @@ export default function Footer() {
                 FDRK 0460, Compass Building,<br />
                 Al Sohada Road, Al Hamara Industrial Zone FZ,<br />
                 Ras Al Khaimah, UAE<br /><br />
-                <strong>Email:</strong> info@NServetechnology.com
+                <strong>Email:</strong> info@nServetechnology.com
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Footer() {
       </div>
       <div className="container">
         <div className="footer-bottom">
-          © Copyright <strong>NServe</strong>. All Rights Reserved
+          © Copyright <strong>nServe</strong>. All Rights Reserved
         </div>
       </div>
     </footer>

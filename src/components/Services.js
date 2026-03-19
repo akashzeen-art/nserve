@@ -14,7 +14,7 @@ const services = [
   {
     color: 'purple',
     title: 'Video On Demand Services',
-    desc: 'NServe operates Video-on-Demand (VOD) digital entertainment platforms that allow users to stream movies, web series, learning videos, documentaries, and other content directly over the internet. Users can watch anytime on smartphones, tablets, smart TVs, and computers, accessing diverse genres including fitness, drama, action, comedy, romance, thriller, and regional entertainment.',
+    desc: 'nServe operates Video-on-Demand (VOD) digital entertainment platforms that allow users to stream movies, web series, learning videos, documentaries, and other content directly over the internet. Users can watch anytime on smartphones, tablets, smart TVs, and computers, accessing diverse genres including fitness, drama, action, comedy, romance, thriller, and regional entertainment.',
   },
   {
     color: 'green',

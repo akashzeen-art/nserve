@@ -18,7 +18,7 @@ export default function About() {
             <h3>About Us</h3>
             <h2>Who we are?</h2>
             <p>
-              We provide full spectrum IT solutions to meet the needs of the clients. NServe has the capability to
+              We provide full spectrum IT solutions to meet the needs of the clients. nServe has the capability to
               offer end‐to‐end system integration solutions custom‐designed to meet all business needs. We have the
               support of global leaders to deliver the latest technologies at competitive prices. We have also
               acquired expert knowledge in several core technologies to offer the right solution to our customers.
@@ -32,7 +32,7 @@ export default function About() {
             </p>
           </div>
           <div className={`about-img fade-up${visible ? ' visible delay-200' : ''}`}>
-            <img src="/img/about.jpg" alt="About NServe" />
+            <img src="/img/about.jpg" alt="About nServe" />
           </div>
         </div>
       </div>

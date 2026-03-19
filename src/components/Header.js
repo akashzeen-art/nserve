@@ -47,8 +47,8 @@ export default function Header() {
 
         {/* Logo */}
         <a href="/" className="logo" onClick={e => { e.preventDefault(); scrollTo('hero'); }}>
-          <img src="/img/logo.png" alt="NServe" />
-          <span className="logo-text">NServe</span>
+          <img src="/img/logo.png" alt="nServe" />
+          <span className="logo-text">nServe</span>
         </a>
 
         {/* Desktop nav */}

@@ -18,7 +18,7 @@ export default function Contact() {
     e.preventDefault();
     setStatus('loading');
     try {
-      const res = await fetch('https://NServetechnology.com/forms/contact.php', {
+      const res = await fetch('https://nServetechnology.com/forms/contact.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(form).toString(),
@@ -51,12 +51,12 @@ export default function Contact() {
             <div className="info-box">
               <svg viewBox="0 0 24 24" fill="none" stroke="#4154f1" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               <h3>Email Us</h3>
-              <p><strong>Email:</strong> <a href="mailto:info@NServetechnology.com">info@NServetechnology.com</a></p>
+              <p><strong>Email:</strong> <a href="mailto:info@nServetechnology.com">info@nServetechnology.com</a></p>
             </div>
             <div className="info-box">
               <svg viewBox="0 0 24 24" fill="none" stroke="#4154f1" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
               <h3>Website</h3>
-              <p><a href="http://NServetechnology.com/">NServetechnology.com</a></p>
+              <p><a href="http://nServetechnology.com/">nServetechnology.com</a></p>
             </div>
           </div>
 

@@ -68,8 +68,8 @@ function ServicesNav() {
 
           {/* Brand */}
           <a href="/" className="sp-nav-brand">
-            <img src="/img/logo.png" alt="NServe" />
-            <span>NServe</span>
+            <img src="/img/logo.png" alt="nServe" />
+            <span>nServe</span>
           </a>
 
           {/* Desktop links */}
@@ -289,9 +289,9 @@ function ServicesFooter() {
     <footer className="sp-footer">
       <div className="sp-footer-icons">
         <Icon name="twitter" /><Icon name="linkedin" /><Icon name="mail" />
-        <a href="mailto:info@NServetechnology.com">info@NServetechnology.com</a>
+        <a href="mailto:info@nServetechnology.com">info@nServetechnology.com</a>
       </div>
-      <p>© 2026 NServe Technologies. Safeguarding businesses against the unpredictable.</p>
+      <p>© 2026 nServe Technologies. Safeguarding businesses against the unpredictable.</p>
     </footer>
   );
 }
