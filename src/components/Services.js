@@ -21,6 +21,11 @@ const services = [
     title: 'IT Solutions and Services',
     desc: 'Our IT solutions and services cover everything from custom software development to cloud computing, cybersecurity, and IT infrastructure management. We provide end-to-end support to help businesses streamline operations, enhance security, and implement innovative technologies to achieve their objectives.',
   },
+  {
+    color: 'teal',
+    title: 'Cross-Border Payments',
+    desc: 'nServe provides seamless and efficient cross-border payment and repatriation solutions, enabling individuals and businesses to securely transfer and repatriate funds across international borders. Our services are designed to simplify international transactions while ensuring transparency, regulatory compliance, security, and timely processing. With a customer-centric approach, nServe supports end-to-end cross-border payment requirements, including international fund transfers, repatriation of funds, documentation, and compliance-related processes.',
+  },
 ];
 
 const SLIDE_GAP = 24;

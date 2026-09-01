@@ -58,7 +58,7 @@ export default function Footer() {
             <div className="footer-links">
               <h4>Our Services</h4>
               <ul>
-                {['Direct Carrier Billing', 'Digital Marketing', 'IT Solutions and Services'].map((s) => (
+                {['Direct Carrier Billing', 'Digital Marketing', 'Video On Demand Services', 'IT Solutions and Services', 'Cross-Border Payments'].map((s) => (
                   <li key={s}>
                     <svg width="12" height="12" fill="none" stroke="#d0d4fc" strokeWidth="2" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
                     <a href="/#">{s}</a>

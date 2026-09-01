@@ -473,6 +473,10 @@ section { padding: 60px 0; overflow: hidden; }
 .service-box.green .icon  { color: #08da4e; background: #cffddf; }
 .service-box.green:hover  { background: #e9fff1; }
 
+.service-box.teal  { border-bottom: 3px solid #0dcaf0; }
+.service-box.teal .icon  { color: #0dcaf0; background: #cff4fc; }
+.service-box.teal:hover  { background: #e8f9fd; }
+
 @media (max-width: 575px) {
   .services-slider-nav { left: -10px; right: -10px; }
 }
